@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="calculator">
+        <input id="display"  readonly />
+      <div id="keys">
+        <button onclick="apprendToDispaly('9')">9</button>
+        <button onclick="apprendToDispaly('8')" >8</button>
+        <button onclick="apprendToDispaly('7')">7</button>
+        <button onclick="apprendToDispaly('+')" class="operator-btn">+</button>
+        
+        <button onclick="apprendToDispaly('6')">6</button>
+        <button onclick="apprendToDispaly('5')">5</button>
+        <button onclick="apprendToDispaly('4')">4</button>
+        <button onclick="apprendToDispaly('-')" class="operator-btn">-</button>
+        
+        <button onclick="apprendToDispaly('3')">3</button>
+        <button onclick="apprendToDispaly('2')">2</button>
+        <button onclick="apprendToDispaly('1')">1</button>
+        <button onclick="apprendToDispaly('*')" class="operator-btn">*</button>
+      
+        <button onclick="apprendToDispaly('0')">0</button>
+        <button onclick="apprendToDispaly('00')">00</button>
+        <button onclick="apprendToDispaly('.')">.</button>
+        <button onclick="apprendToDispaly('/')"class="operator-btn">/</button>
+       
+        <button onclick="clearDispaly()" >AC</button>
+        <button onclick="equal()" class="operator-btn clearbtn ">=</button>
+      
+      </div>
+
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
